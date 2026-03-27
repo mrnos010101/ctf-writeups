@@ -221,5 +221,5 @@ Nmap → WPScan → Forminator CVE-2023-4596
 
 ---
 
-*Writeup by: [your nickname]*  
+*Writeup by: [AK]*  
 *Date: March 2026*
