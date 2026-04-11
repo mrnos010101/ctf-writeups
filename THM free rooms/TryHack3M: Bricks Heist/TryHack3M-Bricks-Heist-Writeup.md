@@ -389,7 +389,7 @@ echo "HEX_STRING" | python3 -c "import sys,binascii; print(binascii.unhexlify(sy
 
 ---
 
-> **Author:** CTF Writeup  
+> **Author:** AK 
 > **Platform:** [TryHackMe](https://tryhackme.com)  
 > **Room:** TryHack3M: Bricks Heist  
 > **Date:** April 2026
