@@ -1,6 +1,6 @@
 # Creative — TryHackMe Writeup
 
-> **Difficulty:** Medium  
+> **Difficulty:** Easy 
 > **OS:** Linux (Ubuntu)  
 > **Tags:** SSRF, Vhost Enumeration, LD_PRELOAD Privilege Escalation
 
