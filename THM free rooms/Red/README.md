@@ -1,0 +1,1 @@
+writeup for room "Red"
