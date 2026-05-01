@@ -1,0 +1,1 @@
+This room demonstrates how an exposed PostgreSQL instance with default credentials can lead to full system compromise. The attack chain covers credential brute-forcing, RCE via COPY FROM PROGRAM, credential harvesting from a web config file, and privilege escalation to root via sudo.
