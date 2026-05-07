@@ -1,0 +1,1 @@
+This room tests your ability to work with Linux command-line tools to locate files, inspect their properties, and extract information. You are given a list of 12 filenames scattered across the filesystem and must answer questions about their ownership, contents, permissions, and metadata.
