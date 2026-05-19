@@ -12,8 +12,8 @@
 
 A multi-layered boot2root machine with plenty of rabbit holes (pun intended). The attack path goes through web enumeration with hidden redirects, steganography in a PNG file, Brainfuck-encoded credentials, lateral movement between two users, and a classic sudo version exploit for root.
 
-- **User flag:** `THM{1107174691af9ff3681d2b5bdb5740b1589bae53}`
-- **Root flag:** `THM{8d6f163a87a1c80de27a4fd61aef0f3a0ecf9161}`
+- **User flag:** `THM{}`
+- **Root flag:** `THM{1}`
 
 ---
 
