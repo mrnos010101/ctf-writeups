@@ -198,9 +198,9 @@ The plaintext `zxcvbnm123456789` is the bottom row of a QWERTY keyboard plus dig
 
 | Task | Flag |
 |------|------|
-| Tony's Blog | `THM{Tony_Sure_Lovex_Frosted_Flakes}` |
-| JBoss | `THM{50c10ad46b5793704601ecdad865eb06}` |
-| Root | `zxcvbnm123456789` |
+| Tony's Blog | `THM{???s}` |
+| JBoss | `THM{???}` |
+| Root | `???` |
 
 ---
 
