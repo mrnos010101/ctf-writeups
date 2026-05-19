@@ -1,0 +1,2 @@
+Tags: Java Deserialization, JBoss, CVE-2015-7501, ysoserial, Privilege Escalation, sudo find
+This room teaches exploitation of a Java deserialization vulnerability (CVE-2015-7501) in JBoss Application Server. The attack chain involves exploiting an insecure deserialization endpoint to gain initial access, discovering credentials in plaintext notes for lateral movement, and abusing a sudo misconfiguration on find to escalate to root.
