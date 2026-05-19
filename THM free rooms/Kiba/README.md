@@ -1,0 +1,2 @@
+Tags: Kibana, Prototype Pollution, CVE-2019-7609, Timelion RCE, Linux Capabilities, cap_setuid, Node.js
+This room introduces two techniques that are new to my toolkit: Prototype Pollution (a JavaScript-specific vulnerability leading to RCE via Kibana's Timelion visualizer) and Linux Capabilities as a privilege escalation vector. The attack chain exploits CVE-2019-7609 in Kibana 6.5.4 to get a reverse shell, then abuses a python3 binary with cap_setuid+ep to escalate to root.
