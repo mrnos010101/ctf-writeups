@@ -1,0 +1,1 @@
+A boot2root machine originally developed for Securi-Tay 2020. The key gimmick: HTTP and SSH services are running on swapped ports. The box requires multi-layer decoding, steganography extraction, and exploiting a SUID binary for privilege escalation.
