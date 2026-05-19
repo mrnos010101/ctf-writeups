@@ -13,8 +13,8 @@
 
 This room introduces two techniques that are new to my toolkit: **Prototype Pollution** (a JavaScript-specific vulnerability leading to RCE via Kibana's Timelion visualizer) and **Linux Capabilities** as a privilege escalation vector. The attack chain exploits CVE-2019-7609 in Kibana 6.5.4 to get a reverse shell, then abuses a python3 binary with `cap_setuid+ep` to escalate to root.
 
-- **User flag:** `THM{1s_easy_pwn3d_k1bana_w1th_rce}`
-- **Root flag:** `THM{pr1v1lege_escalat1on_us1ng_capab1l1t1es}`
+- **User flag:** `THM{1??}`
+- **Root flag:** `THM{pr1v1lege???1t1es}`
 
 ---
 
