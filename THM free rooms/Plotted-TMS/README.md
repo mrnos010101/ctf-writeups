@@ -1,0 +1,2 @@
+Tags: SQLi Authentication Bypass, PHP File Upload, Cron Job Abuse, Directory Permissions, doas, OpenSSL GTFOBins
+This room features a Traffic Offense Management System (TOMS) by oretnom23 — a notoriously insecure PHP application from SourceCodester. The attack chain involves bypassing SQL authentication on the admin panel, uploading a PHP reverse shell through unrestricted file upload, abusing a cron job misconfiguration for lateral movement, and leveraging doas with openssl for privilege escalation to root.
