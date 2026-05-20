@@ -13,8 +13,8 @@
 
 This room features a Traffic Offense Management System (TOMS) by oretnom23 — a notoriously insecure PHP application from SourceCodester. The attack chain involves bypassing SQL authentication on the admin panel, uploading a PHP reverse shell through unrestricted file upload, abusing a cron job misconfiguration for lateral movement, and leveraging `doas` with `openssl` for privilege escalation to root.
 
-- **User flag:** `77927510d5edacea1f9e86602f1fbadb`
-- **Root flag:** `53f85e2da3e874426fa059040a9bdcab`
+- **User flag:** `77927???badb`
+- **Root flag:** `53f8???0a9bdcab`
 
 ---
 
