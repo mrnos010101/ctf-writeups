@@ -13,8 +13,8 @@
 
 A beginner-friendly Boot2Root box themed around a gaming community website ("House of Danak"). The attack chain involves finding an encrypted SSH private key exposed in a web directory, discovering the username in an HTML comment, cracking the key passphrase with a wordlist conveniently left on the server, and escalating privileges via LXD group membership to achieve full root access.
 
-- **User Flag:** `a5c2ff8b9c2e3d4fe9d4ff2f1a5a6e7e`
-- **Root Flag:** `2e337b8c9f3aff0c2b3e8d4e6a7c88fc`
+- **User Flag:** `a5c2f???e7e`
+- **Root Flag:** `2e???????fc`
 
 ---
 
