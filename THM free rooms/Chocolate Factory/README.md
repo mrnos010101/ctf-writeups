@@ -1,0 +1,3 @@
+Tags: FTP Anonymous Access, Steganography, Password Cracking, Command Injection, SSH Private Key, Sudo vi Privilege Escalation, Fernet Decryption, Basic Reverse Engineering.
+Overview
+A Willy Wonka–themed box that combines multiple attack vectors into one kill chain. Anonymous FTP gives us an image with steganographic data — a base64-encoded /etc/shadow file. After cracking Charlie's password hash, we authenticate to a web panel that provides direct command execution. From there we exfiltrate an SSH private key, log in as Charlie, and abuse a sudo vi misconfiguration to become root. The root flag is encrypted with Python's Fernet symmetric encryption, requiring a key extracted from a binary on the web server.
