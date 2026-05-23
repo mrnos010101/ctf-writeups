@@ -13,10 +13,10 @@
 
 A Willy Wonka–themed box that combines multiple attack vectors into one kill chain. Anonymous FTP gives us an image with steganographic data — a base64-encoded `/etc/shadow` file. After cracking Charlie's password hash, we authenticate to a web panel that provides direct command execution. From there we exfiltrate an SSH private key, log in as Charlie, and abuse a `sudo vi` misconfiguration to become root. The root flag is encrypted with Python's Fernet symmetric encryption, requiring a key extracted from a binary on the web server.
 
-- **Key:** `b'-VkgXhFf6sAEcAwrC6YR-SZbiuSb8ABXeQuvhcGSQzY='`
-- **Charlie's Password:** `cn7824`
-- **User Flag:** `flag{cd5509042371b34e4826e4838b522d2e}`
-- **Root Flag:** `flag{cec59161d338fef787fcb4e296b42124}`
+- **Key:** `b'-VkgXhFf6sAEcA???vhcGSQzY='`
+- **Charlie's Password:** `cn??24`
+- **User Flag:** `flag{cd550???38b522d2e}`
+- **Root Flag:** `flag{cec591???b42124}`
 
 ---
 
