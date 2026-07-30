@@ -1,0 +1,1 @@
+TL;DR — A PHP app authenticates users with a home-made "encrypted" SSO cookie. The scheme is not encryption at all: it hashes the plaintext user:User-Agent:SECRET_KEY in independent 8-byte chunks with crypt() (traditional DES / descrypt) under a per-cookie salt, and concatenates the results. Two independent weaknesses fall out of that design
