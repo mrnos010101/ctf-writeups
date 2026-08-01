@@ -1,0 +1,1 @@
+The room is deliberately two-phase: first a predictable-token problem (no real cryptography, pure reconstruction), then a real-cipher oracle problem. Recognising which phase you are in is half the battle.
