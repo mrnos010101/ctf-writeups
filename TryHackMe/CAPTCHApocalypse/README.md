@@ -1,0 +1,1 @@
+The room is not about "breaking a captcha". It is about automating a login through three defences that are wired together — and the twist is that every piece of the site's cryptography works against the defender.
