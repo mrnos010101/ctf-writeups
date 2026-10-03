@@ -1,0 +1,1 @@
+A single exposed telephony control-plane port carries the whole box. The interesting part is not the exploit — it is a default password on a management interface that was never meant to face the network — but the privilege-escalation step, where an account that is a local administrator still cannot read a file, and the correct fix is a privilege, not group membership.
