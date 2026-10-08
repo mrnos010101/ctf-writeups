@@ -1,0 +1,1 @@
+Room: linprivbasics · Category: Linux Privilege Escalation · Difficulty: Easy (theory + practice) Author writeup by: nos010101 · Date: 2026-10 Scope: Six local privilege-escalation primitives, each drilled on its own practice box. Mechanism-first, mapped to MITRE ATT&CK / CWE / GTFOBins.
