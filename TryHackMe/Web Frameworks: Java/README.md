@@ -1,0 +1,5 @@
+Executive Summary
+
+The target is a Spring Boot banking application (vulnbank.jar) exposing four independent vulnerability classes, each exploitable without authentication or with self-registered credentials. The attack surface spans from misconfigured management endpoints through classic injection to unsafe deserialization, culminating in unauthenticated Remote Code Execution as root. A fifth flag, accessible only from the host filesystem, confirms full compromise through the deserialization foothold.
+
+From a regulatory perspective (DORA Art. 25, TIBER-EU), every finding maps to an ICT risk that a Threat-Led Penetration Test would flag: uncontrolled exposure of operational secrets (Actuator), integrity failure in data-layer queries (SQLi), broken authorization boundary in the domain model (mass assignment), and absence of input validation on serialized objects (deserialization RCE). The root-level execution context eliminates the need for privilege escalation and grants immediate access to all host resources — a single-step path from network access to total compromise.
